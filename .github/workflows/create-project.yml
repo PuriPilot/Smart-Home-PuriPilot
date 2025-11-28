@@ -30,7 +30,7 @@ jobs:
               repo: context.repo.repo
             });
 
-            const name = "Smart Home Air MVP";
+            const name = "Smart Home AirPilot";
             const found = projects.find(p => p.name === name);
 
             return found ? { id: found.id, number: found.number } : {};
@@ -41,10 +41,10 @@ jobs:
         if: steps.find_project.outputs.id == ''
         uses: peter-evans/create-project@v2
         with:
-          name: Smart Home Air MVP
+          name: Smart Home AirPilot
           body: |
-            Smart Home Air MVP 프로젝트입니다.
-            하루 스프린트 구조로 구성됩니다.
+            Smart Home AirPilot 프로젝트입니다.
+            스프린트 구조로 구성됩니다.
 
       # 3. 사용할 프로젝트 번호 결정
       - name: Set project number
@@ -62,11 +62,11 @@ jobs:
         with:
           script: |
             const columns = [
-              "Sprint 0 – 설계",
-              "Sprint 1 – Graph & API",
-              "Sprint 2 – Kafka + Edge",
-              "Sprint 3 – Worker & Control",
-              "Final Sprint – Demo",
+              "Sprint 0 - 설계",
+              "Sprint 1 - Graph & API",
+              "Sprint 2 - Kafka + Edge",
+              "Sprint 3 - Worker & Control",
+              "Final Sprint - Demo",
               "Done"
             ];
 
@@ -127,7 +127,7 @@ jobs:
 
             const issueTemplates = [
               {
-                sprint: "Sprint 0 – 설계",
+                sprint: "Sprint 0 - 설계",
                 issues: [
                   { title: "프로젝트 스코프 확정", labels: ["pm"] },
                   { title: "데이터 스키마 확정 (Supabase)", labels: ["backend", "pm"] },
@@ -137,7 +137,7 @@ jobs:
                 ]
               },
               {
-                sprint: "Sprint 1 – Graph & API",
+                sprint: "Sprint 1 - Graph & API",
                 issues: [
                   { title: "House Graph GET/POST 구현", labels: ["backend"] },
                   { title: "Room Graph Editor UI 스캐폴드", labels: ["frontend"] },
@@ -148,7 +148,7 @@ jobs:
                 ]
               },
               {
-                sprint: "Sprint 2 – Kafka + Edge",
+                sprint: "Sprint 2 - Kafka + Edge",
                 issues: [
                   { title: "Kafka Producer 완성", labels: ["backend"] },
                   { title: "Telemetry POST 자동화", labels: ["edge"] },
@@ -159,7 +159,7 @@ jobs:
                 ]
               },
               {
-                sprint: "Sprint 3 – Worker & Control",
+                sprint: "Sprint 3 - Worker & Control",
                 issues: [
                   { title: "Kafka Consumer 3개 스트림 통합", labels: ["worker"] },
                   { title: "Predictive Control Logic 구현", labels: ["worker"] },
@@ -168,7 +168,7 @@ jobs:
                 ]
               },
               {
-                sprint: "Final Sprint – Demo",
+                sprint: "Final Sprint - Demo",
                 issues: [
                   { title: "전체 오류 수정", labels: ["pm"] },
                   { title: "UI 레이아웃 정리", labels: ["frontend"] },
