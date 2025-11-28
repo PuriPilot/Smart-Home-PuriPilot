@@ -12,7 +12,7 @@ jobs:
 
     permissions:
       contents: write
-      projects: write
+      project: write
       issues: write
 
     steps:
