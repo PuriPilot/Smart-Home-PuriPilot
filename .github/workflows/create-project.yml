@@ -12,7 +12,7 @@ jobs:
 
     permissions:
       contents: write
-      project: write
+      repository-projects: write
       issues: write
 
     steps:
