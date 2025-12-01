@@ -1,8 +1,12 @@
-from pydantic import BaseSettings
-from pathlib import Path
+# app/edge_ai/core/config.py
 
-BASE_DIR = Path(__file__).resolve().parents[2]  # 프로젝트 루트 C:...\Smart-Home-PuriPilot
-ENV_PATH = BASE_DIR / "app" / "edge_ai" / ".env"
+from pathlib import Path
+from pydantic_settings import BaseSettings
+
+# config.py 위치: app/edge_ai/core/config.py
+# parents[0] = core, parents[1] = edge_ai
+ENV_PATH = Path(__file__).resolve().parents[1] / ".env"
+
 
 class EdgeSettings(BaseSettings):
     EDGE_OPENAI_API_KEY: str
@@ -10,5 +14,7 @@ class EdgeSettings(BaseSettings):
 
     class Config:
         env_file = str(ENV_PATH)
+        env_file_encoding = "utf-8"
+
 
 settings = EdgeSettings()
