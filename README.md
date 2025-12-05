@@ -1,4 +1,4 @@
-# PuriPilot (English)
+# PuriPilot
 
 Most air purifiers rely only on **particulate matter** and **harmful gas sensors**.
 Because of this, several issues occur:
