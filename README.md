@@ -40,7 +40,7 @@ This repository serves as an `experimental / demo project` for:
   - Integration of IoT devices (ESP32 + sensors + Edge Impulse) with the web backend
 
 ## Architecture Overview
-<img width="1371" height="1117" alt="image" src="https://github.com/user-attachments/assets/93d8cf60-86dc-40e3-8f3d-ae3dc23e2aac" />
+<img width="877" height="715" alt="image" src="https://github.com/user-attachments/assets/22aa63c3-bc87-4247-bf9c-8eb75d5cc8a6" />
 
 
 **Frontend**
