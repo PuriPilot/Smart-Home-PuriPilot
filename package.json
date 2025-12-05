@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "PuriPilot smart-home floorplan designer with LG PuriCare device control",
   "license": "(MIT OR Apache-2.0)",
-  "main": "main.js",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
@@ -29,6 +29,7 @@
   },
   "scripts": {
     "build": "browserify dist/blueprint3d.js > example/js/blueprint3d.bundle.js --verbose",
+    "start": "node server.js",
     "start:server": "node server.js"
   },
   "author": ""
