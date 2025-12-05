@@ -1,0 +1,4 @@
+- 사용 보드: ESP32 DevKit V1
+- 센서: DFRobot Gravity BME688
+- 라이브러리: Adafruit Unified Sensor Library
+- 시리얼 출력 포맷: `timestamp_ms`, `temp`, `hum`, `pres`, `gas_kohm`, `label`
