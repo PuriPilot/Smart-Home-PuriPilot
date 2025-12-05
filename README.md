@@ -40,6 +40,8 @@ This repository serves as an `experimental / demo project` for:
   - Integration of IoT devices (ESP32 + sensors + Edge Impulse) with the web backend
 
 ## Architecture Overview
+![Uploading Untitled diagram-2025-12-05-024421.png…]()
+
 **Frontend**
   - Runs under example/
   - 2D floor-plan editor
