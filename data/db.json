@@ -1,0 +1,22 @@
+{
+  "devices": [
+    {
+      "id": "lg-puricare-1",
+      "name": "Lg Puricare",
+      "mode": "LOW",
+      "smell_class": "BACKGROUND",
+      "last_seen": "2025-12-04T21:52:21.210Z",
+      "createdAt": "2025-12-04T21:47:43.240Z",
+      "updatedAt": "2025-12-04T21:52:21.210Z"
+    }
+  ],
+  "floorplans": [
+    {
+      "id": "fp-1764884930926",
+      "name": "Current Floorplan",
+      "data": "{\"floorplan\":{\"corners\":{\"f90da5e3-9e0e-eba7-173d-eb0b071e838e\":{\"x\":204.85099999999989,\"y\":289.052},\"da026c08-d76a-a944-8e7b-096b752da9ed\":{\"x\":672.2109999999999,\"y\":289.052},\"4e3d65cb-54c0-0681-28bf-bddcc7bdb571\":{\"x\":672.2109999999999,\"y\":-178.308},\"71d4f128-ae80-3d58-9bd2-711c6ce6cdf2\":{\"x\":204.85099999999989,\"y\":-178.308},\"84b23df6-5091-43b8-6d4c-de4b731b3f23\":{\"x\":672.2109999999999,\"y\":-178.308},\"6a0ed590-9024-fdde-388a-ff5f95970da1\":{\"x\":1096.899,\"y\":-445.5160000000001},\"05bdf2fa-e61b-e6a9-11da-20ad10e32f52\":{\"x\":1545.971,\"y\":696.4679999999998},\"7450d15f-266f-e226-c382-a1b8f982caf2\":{\"x\":672.2109999999999,\"y\":289.052}},\"walls\":[{\"corner1\":\"71d4f128-ae80-3d58-9bd2-711c6ce6cdf2\",\"corner2\":\"f90da5e3-9e0e-eba7-173d-eb0b071e838e\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"f90da5e3-9e0e-eba7-173d-eb0b071e838e\",\"corner2\":\"7450d15f-266f-e226-c382-a1b8f982caf2\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"7450d15f-266f-e226-c382-a1b8f982caf2\",\"corner2\":\"84b23df6-5091-43b8-6d4c-de4b731b3f23\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"84b23df6-5091-43b8-6d4c-de4b731b3f23\",\"corner2\":\"71d4f128-ae80-3d58-9bd2-711c6ce6cdf2\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"84b23df6-5091-43b8-6d4c-de4b731b3f23\",\"corner2\":\"6a0ed590-9024-fdde-388a-ff5f95970da1\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"6a0ed590-9024-fdde-388a-ff5f95970da1\",\"corner2\":\"05bdf2fa-e61b-e6a9-11da-20ad10e32f52\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}},{\"corner1\":\"05bdf2fa-e61b-e6a9-11da-20ad10e32f52\",\"corner2\":\"7450d15f-266f-e226-c382-a1b8f982caf2\",\"frontTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0},\"backTexture\":{\"url\":\"rooms/textures/wallmap.png\",\"stretch\":true,\"scale\":0}}],\"wallTextures\":[],\"floorTextures\":{},\"newFloorTextures\":{}},\"items\":[{\"item_name\":\"Lg Puricare\",\"item_type\":1,\"model_url\":\"models/js/cb-archnight-white_baked.js\",\"device_id\":\"lg-puricare-1\",\"xpos\":876.6062958405263,\"ypos\":31.15939942141,\"zpos\":127.06354692126638,\"rotation\":0,\"scale_x\":1,\"scale_y\":1,\"scale_z\":1,\"fixed\":false},{\"item_name\":\"Red Chair\",\"item_type\":1,\"model_url\":\"models/js/ik-ekero-orange_baked.js\",\"device_id\":null,\"xpos\":917.6781334457629,\"ypos\":37.50235073007,\"zpos\":-84.10105875362592,\"rotation\":0,\"scale_x\":1,\"scale_y\":1,\"scale_z\":1,\"fixed\":false}]}",
+      "createdAt": "2025-12-04T21:48:50.926Z",
+      "updatedAt": "2025-12-04T21:52:28.028Z"
+    }
+  ]
+}

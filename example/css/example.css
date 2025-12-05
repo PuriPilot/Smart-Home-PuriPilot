@@ -1,0 +1,209 @@
+/*
+ * General Formatting
+ */
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+.main-row {
+  padding: 0;
+}
+
+.sidebar {
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+  border-right: 1px solid #eee;
+}
+
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 0;
+}
+
+/*
+ * "Loading" modal
+ */
+
+#loading-modal {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(50, 50, 50, 0.9);
+}
+
+#loading-modal  h1 {
+  text-align: center; 
+  margin-top: 30%;
+  color: #fff;
+}
+
+/* Device bubble */
+
+.device-bubble {
+  position: absolute;
+  z-index: 1000;
+  min-width: 220px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  padding: 10px 12px;
+  color: #333;
+  pointer-events: auto;
+}
+
+.device-bubble-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.device-bubble-body {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.device-bubble-edit {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.device-bubble-edit input {
+  flex: 1;
+  min-width: 0;
+  height: 26px;
+  padding: 4px 6px;
+  font-size: 12px;
+}
+
+.device-meta {
+  color: #777;
+  font-size: 11px;
+}
+
+.device-bubble-actions .btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+/*
+ * Design
+ */
+
+#viewer {
+  display: none;
+}
+
+#floorplanner {
+  display: none;
+}
+
+#add-items {
+  display: none;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+#main-controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 0;  
+}
+
+#camera-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  padding: 0 20px;  
+  text-align: right;
+}
+
+#floorplanner-controls {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px 0;
+  padding: 0 20px; 
+  width: 100%;
+}
+
+#draw-walls-hint {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.50);
+  color: #ffffff;
+  padding: 5px 10px;
+  z-index: 10;
+  display: none;
+}
+
+.add-item {
+  cursor: pointer;
+}
+
+.btn-file {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: inherit;
+  display: block;
+}
