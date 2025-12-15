@@ -54,35 +54,24 @@ This repository is a **demo / experimental project** aiming for:
   - Verification of the integration structure between IoT devices and Web Backend
 
 ## Architecture Context
+![PuriPilot Architecture Context](docs/architecture_context.svg)
 
-  - **Frontend**
-
+### **Frontend**
   - Runs in `example/` subfolder
-
   - 2D floor plan editing
-
   - Placement of LG PuriCare devices on the floor plan
-
   - Device status check and mode control via Bubble UI
 
-  - **Backend**
-
+### **Backend**
   - Node.js + Express
-
   - Persistent storage of floor plans and device states using MySQL
-
   - Provides REST API including Swagger UI
 
-  - **IoT / Inference (Planned Expansion)**
-
+### **IoT / Inference (Planned Expansion)**
   - ESP32 + e-nose (Sensors for temperature, humidity, gas, etc.)
-
   - Edge Impulse based odor and air quality pattern classification
-
   - Rule-based logic to determine if an odor is unpleasant
-
   - Room-Graph based coordinated control of multiple air purifiers
-
   - ESP32 transmits status and prediction results to the backend
 
 ## Quick Start
