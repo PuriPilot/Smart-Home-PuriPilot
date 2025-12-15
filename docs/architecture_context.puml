@@ -1,0 +1,26 @@
+@startuml
+!include C4.puml
+!include C4_Container.puml
+
+Person(user, "User")
+
+System_Boundary(puripilot, "PuriPilot System") {
+
+  Container(browser, "Browser Studio", "HTML and JavaScript")
+  Container(blueprint, "Blueprint3D Engine", "Three.js")
+  Container(api, "Backend API", "Node.js and Express")
+  Container(db, "MySQL Database", "MySQL")
+  Container(edge, "ESP32 Device", "Firmware")
+  Container(ml, "ML Training", "CSV and Notebooks")
+}
+
+Rel(user, browser, "Uses")
+Rel(browser, blueprint, "Uses")
+Rel(browser, api, "REST")
+Rel(api, db, "Reads and writes")
+Rel(edge, api, "Telemetry")
+Rel(api, edge, "Control")
+Rel(ml, edge, "Rules")
+
+SHOW_LEGEND()
+@enduml
